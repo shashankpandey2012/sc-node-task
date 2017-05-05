@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../utility/PrivateKey.js"],"names":["KEY","issuer","secret"],"mappings":";;;;;AAAA;;;;AAIA,IAAMA,MAAM;AACRC,UAAS,YADD;AAERC,UAAS;AAFD,CAAZ;;kBAKeF,G","file":"PrivateKey.js","sourcesContent":["/**\r\n * Created by Shashank on 5/4/2017.\r\n */\r\n\r\nconst KEY = {\r\n    issuer : 'socialcops',\r\n    secret : 'secret'\r\n};\r\n\r\nexport default KEY;"]}

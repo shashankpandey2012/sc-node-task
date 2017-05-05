@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/controllers/task_controller.js" />
+        <item url="file://$PROJECT_DIR$/dist/controllers/user_controller.js" />
+        <item url="file://$PROJECT_DIR$/dist/routes/tasks.js" />
+        <item url="file://$PROJECT_DIR$/dist/controllers/TaskController.js" />
+        <item url="file://$PROJECT_DIR$/dist/routes/index.js" />
+        <item url="file://$PROJECT_DIR$/dist/app.js" />
+        <item url="file://$PROJECT_DIR$/dist/controllers/UserController.js" />
+        <item url="file://$PROJECT_DIR$/dist/data/users.js" />
+        <item url="file://$PROJECT_DIR$/dist/controllers/index.js" />
+        <item url="file://$PROJECT_DIR$/dist/utility/Secured.js" />
+        <item url="file://$PROJECT_DIR$/dist/controllers/APIResponse.js" />
+        <item url="file://$PROJECT_DIR$/dist/utility/PrivateKey.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/utility/Secured.js" />
+      <root url="file://$PROJECT_DIR$/dist/utility/PrivateKey.js" />
+      <root url="file://$PROJECT_DIR$/dist/controllers/task_controller.js" />
+      <root url="file://$PROJECT_DIR$/dist/controllers/user_controller.js" />
+      <root url="file://$PROJECT_DIR$/dist/routes/tasks.js" />
+      <root url="file://$PROJECT_DIR$/dist/controllers/TaskController.js" />
+      <root url="file://$PROJECT_DIR$/dist/routes/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/app.js" />
+      <root url="file://$PROJECT_DIR$/dist/controllers/UserController.js" />
+      <root url="file://$PROJECT_DIR$/dist/data/users.js" />
+      <root url="file://$PROJECT_DIR$/dist/controllers/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/controllers/APIResponse.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
