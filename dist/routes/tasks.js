@@ -1,7 +1,7 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _express = require('express');
@@ -22,12 +22,18 @@ var router = _express2.default.Router(); /**
 
 router.use(_Secured2.default);
 
-router.patch('/patch', function (req, res) {
-    _controllers.TaskController.patch(req, res);
+/**
+ * PATCH JSON Route
+ * */
+router.patch('/apply_json_patch', function (req, res) {
+  _controllers.TaskController.apply_json_patch(req, res);
 });
 
-router.put('/generateThumb', function (req, res) {
-    _controllers.TaskController.generateThumb(req, res);
+/**
+ * GET thumbnail Route
+ * */
+router.get('/create_thumbnail', function (req, res) {
+  _controllers.TaskController.create_thumbnail(req, res);
 });
 
 exports.default = router;

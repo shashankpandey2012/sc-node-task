@@ -16,26 +16,27 @@ var _users = require('../data/users');
 
 var _users2 = _interopRequireDefault(_users);
 
+var _logger = require('../logger');
+
+var _logger2 = _interopRequireDefault(_logger);
+
 var _collection = require('lodash/collection');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-/**
- * Created by Shashank on 5/4/2017.
- */
 var api_auth = function api_auth(req, res, next) {
-    console.log(req.url);
     var token = req.header('Authorization');
     if (token) {
-        console.log("INSIDE");
+
         try {
             var decoded = _jsonwebtoken2.default.verify(token, _PrivateKey2.default.secret, { issuer: _PrivateKey2.default.issuer });
             var user = (0, _collection.find)(_users2.default, { user_id: decoded.sub });
             if (user) {
-
+                _logger2.default.log('info', 'INSIDE');
                 req.decoded = user;
                 next();
             } else {
+                _logger2.default.log('error', 'USER NOT FOUND');
                 return res.status(403).json({
                     data: null,
                     message: 'Invalid LoginId or Password',
@@ -44,7 +45,7 @@ var api_auth = function api_auth(req, res, next) {
             }
         } catch (err) {
             // err
-            console.log(err);
+            _logger2.default.log('error', err);
             return res.status(403).json({
                 data: null,
                 message: 'FORBIDDEN',
@@ -54,13 +55,15 @@ var api_auth = function api_auth(req, res, next) {
     } else {
         // if there is no token
         // return an error
+        _logger2.default.log('error', 'NO TOKEN FOUND');
         return res.status(403).json({
             data: null,
             message: 'FORBIDDEN',
             status: 403
         });
     }
-};
-
+}; /**
+    * Created by Shashank on 5/4/2017.
+    */
 exports.default = api_auth;
 //# sourceMappingURL=Secured.js.map

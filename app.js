@@ -4,13 +4,13 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
+import logger from './logger';
 import { task } from './routes';
 import { UserController } from './controllers';
 
 let app = express();
 app.use(bodyParser.json());
 app.use(morgan('combined'));
-
 
 app.use(function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
@@ -32,6 +32,6 @@ app.use('/api/v1' , task);
 
 
 app.listen(3000,  () => {
-    console.log(`Express app listening on port 3000 !`);
+    logger.log('info', 'Express app Started on port 3000 !');
 });
 

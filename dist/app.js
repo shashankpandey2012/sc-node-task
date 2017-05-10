@@ -12,16 +12,20 @@ var _morgan = require('morgan');
 
 var _morgan2 = _interopRequireDefault(_morgan);
 
+var _logger = require('./logger');
+
+var _logger2 = _interopRequireDefault(_logger);
+
 var _routes = require('./routes');
 
 var _controllers = require('./controllers');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var app = (0, _express2.default)(); /**
-                                     * Created by Shashank on 5/4/2017.
-                                     */
-
+/**
+ * Created by Shashank on 5/4/2017.
+ */
+var app = (0, _express2.default)();
 app.use(_bodyParser2.default.json());
 app.use((0, _morgan2.default)('combined'));
 
@@ -44,6 +48,6 @@ app.post('/api/login', function (req, res) {
 app.use('/api/v1', _routes.task);
 
 app.listen(3000, function () {
-    console.log('Express app listening on port 3000 !');
+    _logger2.default.log('info', 'Express app Started on port 3000 !');
 });
 //# sourceMappingURL=app.js.map

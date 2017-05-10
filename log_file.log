@@ -1,0 +1,131 @@
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:31:22.110Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:32:01.415Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:32:05.498Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:32:10.378Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:32:22.873Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:32:33.368Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:32:46.943Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:32:50.353Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:33:17.177Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:33:32.745Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:33:38.637Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:33:44.441Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:33:51.147Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:33:54.694Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:34:01.493Z"}
+{"level":"error","message":"MISSING USER ID OR PASSWORD","timestamp":"2017-05-10T17:34:19.068Z"}
+{"level":"error","message":"WRONG CREDENTIALS","timestamp":"2017-05-10T17:34:19.104Z"}
+{"level":"info","message":"Logged In Successfully","timestamp":"2017-05-10T17:34:19.119Z"}
+{"level":"info","message":"INSIDE","timestamp":"2017-05-10T17:34:19.128Z"}
+{"user":{"firstName":"Albert"},"level":"info","message":"JSON Object ","timestamp":"2017-05-10T17:34:19.129Z"}
+{"op":"random","path":"/user/firstName","value":"Einst","level":"info","message":"PATCH Object ","timestamp":"2017-05-10T17:34:19.129Z"}
+{"message":"Cannot read property 'call' of undefined","stack":"TypeError: Cannot read property 'call' of undefined\n    at Object.apply (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\fast-json-patch\\src\\json-patch-duplex.js:481:54)\n    at Object.apply_json_patch (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\dist\\controllers\\TaskController.js:37:37)\n    at F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\dist\\routes\\tasks.js:26:33\n    at Layer.handle [as handle_request] (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\index.js:275:10)","level":"error","timestamp":"2017-05-10T17:34:19.131Z"}
+{"level":"info","message":"INSIDE","timestamp":"2017-05-10T17:34:19.137Z"}
+{"user":{"firstName":"Albert"},"level":"info","message":"JSON Object ","timestamp":"2017-05-10T17:34:19.138Z"}
+{"op":"replace","path":"/user/firstName","value":"Einst","level":"info","message":"PATCH Object ","timestamp":"2017-05-10T17:34:19.138Z"}
+{"user":{"firstName":"Einst"},"level":"info","message":"MODIFIED JSON Object ","timestamp":"2017-05-10T17:34:19.138Z"}
+{"level":"info","message":"INSIDE","timestamp":"2017-05-10T17:34:19.145Z"}
+{"level":"info","message":"Image Url  http://www.himachaltaxi.com/wp-content/uploads/2013/03/Shatabdi-Express-Chandigarh.jpg","timestamp":"2017-05-10T17:34:19.146Z"}
+{"level":"info","message":"Sent : ena-small-bw","timestamp":"2017-05-10T17:34:19.901Z"}
+{"level":"error","message":"MISSING USER ID OR PASSWORD","timestamp":"2017-05-10T17:34:21.250Z"}
+{"level":"error","message":"WRONG CREDENTIALS","timestamp":"2017-05-10T17:34:21.277Z"}
+{"level":"info","message":"Logged In Successfully","timestamp":"2017-05-10T17:34:21.287Z"}
+{"level":"info","message":"INSIDE","timestamp":"2017-05-10T17:34:21.295Z"}
+{"user":{"firstName":"Albert"},"level":"info","message":"JSON Object ","timestamp":"2017-05-10T17:34:21.296Z"}
+{"op":"random","path":"/user/firstName","value":"Einst","level":"info","message":"PATCH Object ","timestamp":"2017-05-10T17:34:21.296Z"}
+{"message":"Cannot read property 'call' of undefined","stack":"TypeError: Cannot read property 'call' of undefined\n    at Object.apply (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\fast-json-patch\\src\\json-patch-duplex.js:481:54)\n    at Object.apply_json_patch (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\dist\\controllers\\TaskController.js:37:37)\n    at F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\dist\\routes\\tasks.js:26:33\n    at Layer.handle [as handle_request] (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (F:\\LPU\\Academics\\Certificate Courses & Skill Courses\\React\\node-task\\node_modules\\express\\lib\\router\\index.js:275:10)","level":"error","timestamp":"2017-05-10T17:34:21.297Z"}
+{"level":"info","message":"INSIDE","timestamp":"2017-05-10T17:34:21.304Z"}
+{"user":{"firstName":"Albert"},"level":"info","message":"JSON Object ","timestamp":"2017-05-10T17:34:21.304Z"}
+{"op":"replace","path":"/user/firstName","value":"Einst","level":"info","message":"PATCH Object ","timestamp":"2017-05-10T17:34:21.305Z"}
+{"user":{"firstName":"Einst"},"level":"info","message":"MODIFIED JSON Object ","timestamp":"2017-05-10T17:34:21.305Z"}
+{"level":"info","message":"INSIDE","timestamp":"2017-05-10T17:34:21.312Z"}
+{"level":"info","message":"Image Url  http://www.himachaltaxi.com/wp-content/uploads/2013/03/Shatabdi-Express-Chandigarh.jpg","timestamp":"2017-05-10T17:34:21.313Z"}
+{"level":"info","message":"Sent : ena-small-bw","timestamp":"2017-05-10T17:34:21.970Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:40:46.780Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:41:09.162Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:41:12.398Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:41:23.625Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:41:24.925Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:41:31.370Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:41:32.808Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:41:48.539Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:41:59.708Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:42:10.314Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:42:13.408Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:42:14.734Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:42:19.438Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:42:20.842Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:42:26.988Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:42:46.154Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:42:49.362Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:42:53.047Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:43:05.815Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:43:09.959Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:43:19.989Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:43:33.158Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:43:40.285Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:43:51.012Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:44:00.513Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:44:22.274Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:44:23.671Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:45:02.392Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:45:10.761Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:45:12.733Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:45:28.261Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:45:41.823Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:47:58.023Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:47:59.921Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:01.229Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:11.111Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:15.875Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:19.954Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:29.252Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:31.919Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:40.158Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:42.081Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:44.076Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:47.476Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:49.971Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:48:55.940Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:49:02.066Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:49:06.105Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:49:11.269Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:49:15.966Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:49:24.178Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:49:28.239Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:49:33.717Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:49:45.524Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:49:54.373Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:49:58.306Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:00.282Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:02.393Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:12.286Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:14.922Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:16.942Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:21.968Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:26.398Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:27.799Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:34.446Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:40.752Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:47.787Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:52.812Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:50:57.903Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:51:00.490Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:51:01.916Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:51:04.782Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:51:18.223Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:51:21.730Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:51:51.360Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:51:54.271Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:52:10.146Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:52:21.120Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:52:25.421Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:52:29.105Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:52:32.532Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:52:44.792Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:52:52.401Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:53:00.363Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:53:56.150Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:53:59.884Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:54:10.452Z"}
+{"level":"info","message":"Express app Started on port 3000 !","timestamp":"2017-05-10T17:54:14.750Z"}

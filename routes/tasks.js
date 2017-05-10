@@ -9,12 +9,19 @@ let router = express.Router();
 router.use(secured);
 
 
-router.patch('/patch' , (req,res)=>{
-    TaskController.patch(req,res);
+/**
+ * PATCH JSON Route
+ * */
+router.patch('/apply_json_patch' , (req,res)=>{
+    TaskController.apply_json_patch(req,res);
 });
 
-router.put('/generateThumb' , (req,res)=>{
-    TaskController.generateThumb(req,res);
+
+/**
+ * GET thumbnail Route
+ * */
+router.get('/create_thumbnail' , (req,res)=>{
+    TaskController.create_thumbnail(req,res);
 });
 
 export default router;

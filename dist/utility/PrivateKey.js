@@ -7,6 +7,9 @@ Object.defineProperty(exports, "__esModule", {
  * Created by Shashank on 5/4/2017.
  */
 
+/**
+ * KEY For JWT
+ * */
 var KEY = {
   issuer: 'socialcops',
   secret: 'secret'

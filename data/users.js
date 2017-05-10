@@ -2,6 +2,10 @@
  * Created by Shashank on 5/4/2017.
  */
 
+/**
+ *
+ * @type {[*]}
+ */
 const user_data = [
     {
         user_id : 'admin',

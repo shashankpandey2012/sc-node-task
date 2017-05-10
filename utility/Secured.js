@@ -4,22 +4,23 @@
 import jwt from 'jsonwebtoken';
 import PrivateKey from './PrivateKey';
 import user_data from '../data/users';
+import logger from '../logger';
 import { find } from 'lodash/collection';
 
 let api_auth = (req , res , next)=>{
-    console.log(req.url);
     let token = req.header('Authorization');
     if(token){
-        console.log("INSIDE");
+
         try {
             let decoded = jwt.verify(token, PrivateKey.secret , {issuer : PrivateKey.issuer } );
             let user = find(user_data , { user_id : decoded.sub });
             if(user){
-
+                logger.log('info' , 'INSIDE');
                 req.decoded = user;
                 next();
             }
             else{
+                logger.log('error' , 'USER NOT FOUND');
                 return res.status(403).json({
                     data : null,
                     message: 'Invalid LoginId or Password',
@@ -29,7 +30,7 @@ let api_auth = (req , res , next)=>{
 
         } catch(err) {
             // err
-            console.log(err);
+            logger.log('error' , err);
             return res.status(403).json({
                 data: null,
                 message: 'FORBIDDEN',
@@ -40,6 +41,7 @@ let api_auth = (req , res , next)=>{
     else {
         // if there is no token
         // return an error
+        logger.log('error' , 'NO TOKEN FOUND');
         return res.status(403).json({
             data: null,
             message: 'FORBIDDEN',
